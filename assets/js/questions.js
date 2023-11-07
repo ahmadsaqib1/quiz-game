@@ -132,10 +132,3 @@ function endQuiz() {
     }
   });
 }
-
-// Add this function to clear high scores
-function clearHighscores() {
-  highscores.length = 0;
-  localStorage.setItem("highScores", JSON.stringify(highscores));
-  displayHighscores();
-}
